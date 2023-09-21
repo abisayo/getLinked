@@ -6,12 +6,15 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion"
+import { slideIn, zoomIn} from '@/utils/motion';
+import { motion } from 'framer-motion';
+import SectionWrapper from '@/hoc/SectionWrapper';
 
 const FaqPage = () => {
     return (
         <section className='w-full md:flex justify-evenly py-[0px]'>
             {/* Left */}
-            <div className='md:mt-24'>
+            <motion.div variants={slideIn("left", "type", 1,1)} className='md:mt-24'>
                 <h3 className='text-white md:text-[32px] text-[20px] md:text-left text-center font-bold md:w-[253px] md:h-[86px]'>
                     Frequently Ask <br /><span className='text-pink'>Question</span>
                 </h3>
@@ -71,17 +74,17 @@ const FaqPage = () => {
                         </AccordionItem>
                     </Accordion>
                 </div>
-            </div>
+            </motion.div>
 
             {/* Right */}
             <div>
-                < div className='md:mt-0 mt-[86px]' >
+                <motion.div variants={zoomIn(1,1)} className='md:mt-0 mt-[86px]' >
                     <Image src='/faqs.png' alt='Big Idea' width={741} height={850}
                     className='lg:mt-16 md:mt-36 relative 3xl:scale-100 scale-75' />
-                </div >
+                </motion.div>
             </div>
         </section>
     )
 }
 
-export default FaqPage
+export default SectionWrapper(FaqPage, "faq");

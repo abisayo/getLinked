@@ -7,7 +7,7 @@ const PrizePage = () => {
             {/* Purple Bg blur */}
             <div
                 className='absolute -z-50 mix-blend-hard-light
-                 bg-no-repeat opacity-80 blur -left-8 '>
+                 bg-no-repeat opacity-80 blur -left-8'>
                 <Image
                     src='/purple-lens.png'
                     alt='purple-lens'
@@ -17,7 +17,7 @@ const PrizePage = () => {
             {/* Left */}
             <div className='flex-center mx-auto'>
                 <Image src='/prize-img.png' width={548} height={482} alt='prize'
-                className='lg:scale-100 relative scale-75 sm:mt-0' />
+                className='lg:scale-100 relative scale-75 sm:mt-0 animate-bounce' />
             </div>
 
             {/* Right*/}

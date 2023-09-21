@@ -70,7 +70,7 @@ const PrivacyPage = () => {
             {/* Right */}
             <div className='lg:mt-0 mt-[300px] lg:mb-0 mb-[-100px]'>
                 <Image src='/privacy.png' alt='Privacy' width={570} height={900} 
-                className='lg:scale-100 scale-75 mx-auto'/>
+                className='lg:scale-100 scale-75 mx-auto animate-pulse'/>
             </div>
         </section>
     )

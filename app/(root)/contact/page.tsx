@@ -69,25 +69,25 @@ const ContactPage = () => {
                     </div>
                     {/* Left */}
                     <div className='xl:ml-[170px] lg:mt-[-100px] w-full xl:w-[280px]'>
-                        <h3 className='text-pink flex xs:text-center xs:mx-auto xs:justify-center  text-[32px] font-semibold'>
+                        <h3 className='text-pink flex text-center mx-auto justify-center text-[32px] font-semibold'>
                             Get in touch
                         </h3>
-                        <p className='xs:mt-[17px] flex xs:text-center xs:mx-auto xs:justify-center  text-white xs:text-[16px] font-[Montserrat]'>
+                        <p className='mt-[17px] flex text-center mx-auto justify-center  text-white xs:text-[16px] font-[Montserrat]'>
                             Contact <br />Information
                         </p>
-                        <p className='xs:mt-[17px] flex xs:text-center xs:mx-auto xs:justify-center  text-white xs:text-[16px] font-[Montserrat]'>
+                        <p className='mt-[17px] flex text-center mx-auto justify-center  text-white xs:text-[16px] font-[Montserrat]'>
                             27,Alara Street <br />Yaba 100012 <br />Lagos State
                         </p>
-                        <p className='xs:mt-[21px] text-white flex xs:text-center xs:mx-auto xs:justify-center  xs:text-[16px] font-[Montserrat]'>
+                        <p className='mt-[21px] text-white flex text-center mx-auto justify-center  xs:text-[16px] font-[Montserrat]'>
                             Call Us : 07067981819
                         </p>
-                        <p className='xs:mt-[22px] text-white  xs:text-[16px] flex xs:text-center xs:mx-auto xs:justify-center font-[Montserrat]'>
+                        <p className='mt-[22px] text-white  text-[16px] flex text-center mx-auto justify-center font-[Montserrat]'>
                             we are open from Monday-Friday <br />08:00am - 05:00pm
                         </p>
-                        <h4 className='xs:mt-[35px] text-pink xs:text-[16px] flex xs:mx-auto xs:justify-center font-[Montserrat]'>
+                        <h4 className='mt-[35px] text-pink xs:text-[16px] flex mx-auto justify-center font-[Montserrat]'>
                             Share on
                         </h4>
-                        <div className='xs:mt-[15px] flex gap-[19px] xs:mx-auto xs:justify-center'>
+                        <div className='mt-[15px] flex gap-[19px] mx-auto justify-center'>
                             <InstagramIcon className='text-white w-[24px] h-[24px]' />
                             <TwitterIcon className='text-white w-[24px] h-[24px]' />
                             <FacebookIcon className='text-white w-[24px] h-[24px]' />
@@ -98,7 +98,7 @@ const ContactPage = () => {
                     {/* Right */}
                     <div
                         className='w-full h-full xl:w-[617px] contact-box 
-                    rounded-md  shadow-gray-700 mb-[30px] sm:px-[90px] sm:py-[65px] xs:px-[40px] xs:py-[65px]'>
+                    rounded-md  shadow-gray-700 mb-[30px] sm:px-[90px] sm:py-[65px] px-[30px] py-[65px]'>
                         <h3 className='text-pink text-[20px] font-semibold'>
                             Questions or need assistance?
                         </h3>

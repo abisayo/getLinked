@@ -262,7 +262,7 @@ const RegisterPage = () => {
                                             }
                                         }}>
                                         <div className="md:w-[699px] md:h-[664px] modal px-[71px] py-[52px] content-center">
-                                            <Image src='/game.png' alt="success" width={300} height={300} className="mx-auto" />
+                                            <Image src='/game.png' alt="success" width={300} height={300} className="mx-auto animate-pulse" />
                                             <p className="text-white font-[Montserrat] text-[16px] md:text-[32px] font-semibold text-center">
                                                 Congratulations <br />you have successfully Registered!
                                             </p>

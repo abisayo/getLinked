@@ -1,15 +1,18 @@
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
+import { slideIn} from '@/utils/motion';
+import { motion } from 'framer-motion';
+import SectionWrapper from '@/hoc/SectionWrapper';
 
 const CriteriaPage = () => {
     return (
         <section className='w-full md:flex justify-evenly py-[20px] '>
             {/* Left */}
-            <div className='md:pt-[130px]'>
+            <motion.div variants={slideIn("left", "type", 1.05,1)} className='md:pt-[130px]'>
                 <Image src='/criteria.png' alt='Big Idea' width={710} height={587}
                     className='md:-mb-[400px] 3xl:scale-100 scale-75' />
                 {/* Purple Bg blur */}
-                <div
+                <div 
                     className='absolute -z-50 mix-blend-hard-light
                  bg-no-repeat opacity-80 blur -left-8 md:mt-0 mt-[-400px] md:mr-0 mr-[150px]'>
                     <Image
@@ -18,10 +21,10 @@ const CriteriaPage = () => {
                         width={1037}
                         height={948} />
                 </div>
-            </div>
+            </motion.div>
 
             {/* Right */}
-            <div className='md:pb-[30px] md:mx-0 px-16'>
+            <motion.div variants={slideIn("right", "type", 1.05,1)} className='md:pb-[30px] md:mx-0 px-16'>
                 <h3 className='md:text-[32px] text-[20px] text-white font-bold md:text-left text-center'>Judging Criteria <br /><span className='text-pink'>Key attributes</span></h3>
                 <p className='md:w-[533px] md:h-[75px] text-[14px] font-[Montserrat] md:text-left text-center leading-[28px] text-white mt-[21px]'>
                     <span className='text-violet text-[16px] font-bold'>Innovation and Creativity:</span> Evaluate the uniqueness and creativity of the
@@ -63,9 +66,9 @@ const CriteriaPage = () => {
                         width={1037}
                         height={948} />
                 </div>
-            </div>
+            </motion.div>
         </section>
     )
 }
 
-export default CriteriaPage
+export default SectionWrapper(CriteriaPage, "criteria")
