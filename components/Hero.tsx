@@ -108,15 +108,12 @@ const HeroPage = () => {
                 </h2>
 
                 <div>
-                    <motion.div
-                        whileHover={{ scale: 1.2 }}
-                        whileTap={{ scale: 0.8 }}
-                        style={{ x: 100 }}
+                    <div
                         className='absolute -z-50 bg-blend-hard-light mix-blend-hard-light 
                     scale-100 xl:scale-[80%] lg:scale-[90%] '>
                         <Image src='/glow.png' alt='Glow' width={667} height={641}
                             className='bg-blend-hard-light' />
-                    </motion.div>
+                    </div>
                     <div
                         className='relative w-full h-full 
                     max-w-[828px] max-h-[715px] bg-cover sm:mt-0 mt-[-40px]
