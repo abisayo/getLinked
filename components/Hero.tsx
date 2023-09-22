@@ -8,6 +8,7 @@ import { fadeIn, textVariant, zoomIn } from '@/utils/motion';
 import { useState, useEffect } from "react"
 
 import SectionWrapper from '@/hoc/SectionWrapper';
+import Link from 'next/link';
 
 
 
@@ -105,11 +106,13 @@ const HeroPage = () => {
                  text-white sm:leading-[33px]'>
                     Participate in getlinked tech Hackathon 2023 stand<br /> a chance to win a Big prize
                 </motion.p>
+                <Link href='/register'>
                 <Button
                     className='text-button font-light  flex mx-auto md:flex-none md:mx-0
                     font-[Montserrat] w-[172px] h-[53px] mt-[24px] sm:mt-[41px]'>
                     <p className='text-white font-normal text-[16px] leading-normal'>Register</p>
                 </Button>
+                </Link>
                 <motion.div variants={fadeIn("","", 0.9, 1)} className='flex mx-auto md:mx-0 gap-3 justify-center sm:justify-between mt-[20px] md:mt-[94px] w-[285px] h-[85px]'>
                     <p className='unica text-[40px] sm:text-[64px] text-white'>
                         {days}<span className='text-[13px]'>Days</span>
@@ -137,7 +140,7 @@ const HeroPage = () => {
                     sm:text-[20px] text-[16px]
                 lg:text-[24px] lg:w-[490px]
                 xl:text-[22px]  
-                2xl:text-[36px] 2xl:w-full
+                2xl:text-[35px] 2xl:w-full
                 font-[Montserrat] italic font-bold float-right'>
                     <Typewriter
                         options={{
