@@ -42,7 +42,7 @@ const PrizePage = () => {
                 </div>
 
                 {/*  Medals */}
-                <div className='flex lg:mt-16 lg:scale-100 md:scale-75 justify-center scale-[60%]'>
+                <div className='flex lg:mt-16 lg:scale-100 md:scale-75 justify-center scale-[56%]'>
                     {/*Silver */}
                     <div className='scale-95 pt-20'>
                         <div className='flex-center'>

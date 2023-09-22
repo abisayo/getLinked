@@ -25,6 +25,16 @@ const PartnersPage = () => {
                 </p>
             </div>
 
+            <div className='absolute mt-[0px] ml-[250px] animate-pulse'>
+                <Image src='/star-pu.png' width={20} height={26} alt='Fire' />
+            </div>
+            <div className='absolute mt-[500px] ml-[750px] animate-pulse'>
+                <Image src='/star.png' width={20} height={26} alt='Fire' />
+            </div>
+            <div className='absolute mt-[150px] ml-[800px] animate-pulse'>
+                <Image src='/star-pu.png' width={20} height={26} alt='Fire' />
+            </div>
+
             {/* Logo designs */}
             <div className='partners xl:w-[1255px] xl:h-[560px] mx-auto mt-[65px] 
           md:p-32 sm:p-16 px-6 2xl:scale-100 xl:scale-75 scale-[100%] mb-36'>
