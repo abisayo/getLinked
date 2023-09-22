@@ -36,7 +36,7 @@ const NavbarPage = () => {
           <li className='flex-center'>
             {navData.map((link, index) => {
               return (
-                <motion.div whileHover={{ scale: 1.1 }}>
+                <motion.div whileHover={{ scale: 1.1 }} key={index}>
                   <Link
                     href={link.path}
                     key={index}
