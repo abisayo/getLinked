@@ -24,7 +24,7 @@ const RulesPage = () => {
             <div className='absolute animate-pulse mt-[150px] ml-[-500px]'>
                 <Image src='/sata-gra.png' width={26} height={32} alt='' />
             </div>
-            <motion.div variants={slideIn("left", "type", 1, 1)} className='xl:pt-48 md:py-20 mb-[70px] px-10'>
+            <motion.div variants={slideIn("left", "type", 0.5, 1)} className='xl:pt-48 md:py-20 mb-[70px] px-10'>
                 <h3 className='text-white md:text-[32px] text-[20px] 
                     leading-[30px] md:text-left font-bold text-center'>
                     Rules and <br /><span className='text-pink'>Guidelines</span>
@@ -41,7 +41,7 @@ const RulesPage = () => {
             
 
             {/* Right */}
-            <motion.div variants={slideIn("right", "type", 1, 1)} className='xl:py-0 md:py-16' >
+            <motion.div variants={slideIn("right", "type", 0.6, 1)} className='xl:py-0 md:py-16' >
                 <Image src='/rules.png' alt='Rules' width={664} height={664}
                     className='md:mx-0 mx-auto 3xl:scale-100 scale-75' />
             </motion.div >

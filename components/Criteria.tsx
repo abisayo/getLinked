@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
-import { slideIn} from '@/utils/motion';
+import { slideIn } from '@/utils/motion';
 import { motion } from 'framer-motion';
 import SectionWrapper from '@/hoc/SectionWrapper';
 
@@ -8,11 +8,14 @@ const CriteriaPage = () => {
     return (
         <section className='w-full md:flex justify-evenly py-[20px] '>
             {/* Left */}
-            <motion.div variants={slideIn("left", "type", 1.05,1)} className='md:pt-[130px]'>
+            <div className='absolute mt-[0px] ml-[-1000px] animate-pulse'>
+                <Image src='/star-pu.png' width={30} height={36} alt='Fire' />
+            </div>
+            <motion.div variants={slideIn("left", "type", 0.5, 1)} className='md:pt-[130px]'>
                 <Image src='/criteria.png' alt='Big Idea' width={710} height={587}
                     className='md:-mb-[400px] 3xl:scale-100 scale-75' />
                 {/* Purple Bg blur */}
-                <div 
+                <div
                     className='absolute -z-50 mix-blend-hard-light
                  bg-no-repeat opacity-80 blur -left-8 md:mt-0 mt-[-400px] md:mr-0 mr-[150px]'>
                     <Image
@@ -22,9 +25,15 @@ const CriteriaPage = () => {
                         height={948} />
                 </div>
             </motion.div>
+            <div className='absolute mt-[450px] ml-[-700px] animate-pulse'>
+                <Image src='/star.png' width={30} height={36} alt='Fire' />
+            </div>
+            <div className='absolute mt-[700px] ml-[-100px] animate-ping'>
+                <Image src='/star.png' width={30} height={36} alt='Fire' />
+            </div>
 
             {/* Right */}
-            <motion.div variants={slideIn("right", "type", 1.05,1)} className='md:pb-[30px] md:mx-0 px-16'>
+            <motion.div variants={slideIn("right", "type", 0.5, 1)} className='md:pb-[30px] md:mx-0 px-16'>
                 <h3 className='md:text-[32px] text-[20px] text-white font-bold md:text-left text-center'>Judging Criteria <br /><span className='text-pink'>Key attributes</span></h3>
                 <p className='md:w-[533px] md:h-[75px] text-[14px] font-[Montserrat] md:text-left text-center leading-[28px] text-white mt-[21px]'>
                     <span className='text-violet text-[16px] font-bold'>Innovation and Creativity:</span> Evaluate the uniqueness and creativity of the

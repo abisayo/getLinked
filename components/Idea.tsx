@@ -13,7 +13,7 @@ const IdeaPage = () => {
             <div className='animate-pulse'>
                 <Image src='/sata-gra.png' width={21} height={25} alt=''/>
             </div>
-            <motion.div variants={zoomIn(1, 1)} className=''>
+            <motion.div variants={zoomIn(0.4, 1)} className=''>
                 <Image src='/idea.png' alt='Big Idea' width={490} height={447}
                     className='lg:mx-0 mx-auto 3xl:scale-100 scale-75' />
                 <Image
@@ -25,7 +25,7 @@ const IdeaPage = () => {
             </motion.div >
 
             {/* Right */}
-            <motion.div variants={zoomIn(1,1)} className='xl:pt-28 lg:pt-16' >
+            <motion.div variants={zoomIn(0.4,1)} className='xl:pt-28 lg:pt-16' >
                 <h3 className='text-white lg:text-[32px] lg:text-left text-center text-[20px] font-bold'>
                     Introduction to getlinked <br />
                     <span className='text-pink'>tech Hackathon 1.0</span>

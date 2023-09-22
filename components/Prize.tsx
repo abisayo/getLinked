@@ -15,9 +15,18 @@ const PrizePage = () => {
                     height={948} />
             </div>
             {/* Left */}
+            <div className='absolute mt-[0px] ml-[-950px] animate-pulse'>
+                <Image src='/star-pu.png' width={15} height={18} alt='Fire' />
+            </div>
             <div className='flex-center mx-auto'>
                 <Image src='/prize-img.png' width={548} height={482} alt='prize'
                 className='lg:scale-100 relative scale-75 sm:mt-0 animate-bounce' />
+            </div>
+            <div className='absolute mt-[600px] ml-[-950px] animate-pulse'>
+                <Image src='/star.png' width={15} height={18} alt='Fire' />
+            </div>
+            <div className='absolute mt-[250px] ml-[50px] animate-pulse'>
+                <Image src='/star.png' width={18} height={21} alt='Fire' />
             </div>
 
             {/* Right*/}
