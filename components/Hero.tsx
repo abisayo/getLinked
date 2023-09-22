@@ -174,8 +174,8 @@ const HeroPage = () => {
                     md:scale-90 md:top-[198px]
                     lg:scale-[90%] lg:top-[190px]
                     xl:scale-[90%] xl:top-[200px]
-                    2xl:bottom-[0px] 2xl:scale-[85%]
-                    3xl:top-[135px] 3xl:scale-75'>
+                    2xl:top-[60px] 2xl:scale-[95%]
+                    3xl:top-[65px] 3xl:scale-95'>
                         <Image src='/man.png' alt='Man' width={828} height={715}
                             className='' />
                     </div>
