@@ -11,7 +11,7 @@ const CriteriaPage = () => {
             <div className='absolute mt-[0px] ml-[-1000px] animate-pulse'>
                 <Image src='/star-pu.png' width={30} height={36} alt='Fire' />
             </div>
-            <motion.div variants={slideIn("left", "type", 0.5, 1)} className='md:pt-[130px]'>
+            <motion.div variants={slideIn("left", "type", 0.2, 1)} className='md:pt-[130px]'>
                 <Image src='/criteria.png' alt='Big Idea' width={710} height={587}
                     className='md:-mb-[400px] 3xl:scale-100 scale-75' />
                 {/* Purple Bg blur */}
@@ -33,7 +33,7 @@ const CriteriaPage = () => {
             </div>
 
             {/* Right */}
-            <motion.div variants={slideIn("right", "type", 0.5, 1)} className='md:pb-[30px] md:mx-0 px-16'>
+            <motion.div variants={slideIn("right", "type", 0.2, 1)} className='md:pb-[30px] md:mx-0 px-16'>
                 <h3 className='md:text-[32px] text-[20px] text-white font-bold md:text-left text-center'>Judging Criteria <br /><span className='text-pink'>Key attributes</span></h3>
                 <p className='md:w-[533px] md:h-[75px] text-[14px] font-[Montserrat] md:text-left text-center leading-[28px] text-white mt-[21px]'>
                     <span className='text-violet text-[16px] font-bold'>Innovation and Creativity:</span> Evaluate the uniqueness and creativity of the

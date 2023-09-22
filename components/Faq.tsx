@@ -17,7 +17,7 @@ const FaqPage = () => {
             <div className='absolute mt-[0px] ml-[-1200px] animate-pulse'>
                 <Image src='/star-pu.png' width={30} height={36} alt='Fire' />
             </div>
-            <motion.div variants={slideIn("left", "type", 0.51, 1)} className='md:mt-24'>
+            <motion.div variants={slideIn("left", "type", 0.2, 1)} className='md:mt-24'>
                 <h3 className='text-white md:text-[32px] text-[20px] md:text-left text-center font-bold md:w-[253px] md:h-[86px]'>
                     Frequently Ask <br /><span className='text-pink'>Question</span>
                 </h3>
@@ -93,7 +93,7 @@ const FaqPage = () => {
                 <div className='absolute mt-[350px] ml-[150px] animate-pulse'>
                     <Image src='/star-pu.png' width={21} height={25} alt='Fire' />
                 </div>
-                <motion.div variants={zoomIn(0.51, 1)} className='md:mt-0 mt-[86px]' >
+                <motion.div variants={zoomIn(0.2, 1)} className='md:mt-0 mt-[86px]' >
                     <Image src='/faqs.png' alt='Big Idea' width={741} height={850}
                         className='lg:mt-16 md:mt-36 relative 3xl:scale-100 scale-75' />
                 </motion.div>
