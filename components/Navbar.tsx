@@ -12,7 +12,7 @@ import { useEffect, useState } from "react";
 const navData = [
   { name: "Timeline", path: "/#timeline" },
   { name: "Overview", path: "/" },
-  { name: "FAQs", path: "/faq" },
+  { name: "FAQs", path: "/#faq" },
   { name: "Contact", path: "/contact" },
 ];
 
